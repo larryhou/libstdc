@@ -5,5 +5,5 @@ Fix for libstdc++.6.0.9.tbd missing issue with Xcode 10
 
 
 ```bash
-sudo cp -fv libstdc++.*.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/
+sudo rsync -av libstdc++*.tbd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/
 ```
